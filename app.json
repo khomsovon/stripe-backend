@@ -5,7 +5,11 @@
   "keywords": ["ios", "stripe"],
   "env": {
     "STRIPE_TEST_SECRET_KEY": {
-      "description": "Find this at https://dashboard.stripe.com/account/apikeys (it'll look like sk_test_****)",
+      "description": "Find this at bongloy.com (it'll look like sk_test_****)",
+      "required": true
+    },
+    "API_BASE": {
+      "description": "https://api.bongloy.com",
       "required": true
     }
   }
